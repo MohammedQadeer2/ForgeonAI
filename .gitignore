@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Google Cloud credentials
+**/serviceAccountKey.json
+**/*service-account*.json
+
+# Build folders
+**/dist/
+**/build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
